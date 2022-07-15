@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Mono',monospace;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    background-color: white;
+    
+}
+
+main {
+    background-color: #1f1d1d;
+    color: white;
+    margin: 10px 20px;
+    height: 100%;
+    max-width: 100%;
+    padding: 0 0 10px 0;
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+#title {
+    font-size: min(4vw,3em);
+    
+}
+
+#quote {
+    font-style: italic;
+    font-size: max(2vw,.5em);
+    color: whitesmoke;
+}
+
+/* image content  */
+
+#img-div {
+    background-color: white;
+    width: min(1000px,50%);
+    margin: 10px auto;
+    object-fit: contain;
+}
+
+#img-div #image {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#image {
+    display: block;
+    width: min(1536px,70%);
+    max-width: 700px;
+    margin : 0 auto;
+}
+
+
+#img-div #img-caption {
+    font-size: 1vw;
+    display: block;
+    text-align: justify;
+    width: 100%;
+    padding : 0 10px;
+    color: black;
+    
+}
+
+#timeline-title {
+    font-size: min(4vw,2.5em);
+    text-align: center;
+    
+}
+
+#timeline {
+    background-color: inherit;
+    margin: 10px auto;
+    width: max(500px,50%);
+    border: none;
+    max-width: 100%;
+    object-fit: contain
+}
+
+#timeline > #timeline-events > li {
+    padding-bottom: 25px;
+    font-size: max(1vw,.5em);
+}
+
+#timeline > #timeline-events > li > span {
+    display: block;
+}
+
+
+.footer-content {
+    background-color: #1f1d1d;
+    color: white;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+.footer-content h2 {
+    font-size: max(1.2vw,.5em);
+}
+
+a {
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
